@@ -26,7 +26,7 @@ def C02_liquidfuel(filename):
 
 
 #to output years as rows and countries as columns
-years,countries = C02_liquidfuel('API_EN.ATM.CO2E.LF.KT_DS2_en_csv_v2_4904068.csv')
+years,countries = C02_liquidfuel('API_EN.ATM.CO2E.LF.KT_DS2_en_csv_v2_4904068.csv'
 
 years
 
