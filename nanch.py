@@ -16,7 +16,7 @@ def C02_liquidfuel(filename):
     # Load the CSV file into a Pandas DataFrame
     df_countries = pd.read_csv(filename, skiprows=4)
 
-    # Set the "Country Name" column as the index
+    Set the "Country Name" column as the index
     df_countries.set_index('Country Name', inplace=True)
 
     # Select columns from "1960" to "2021"
